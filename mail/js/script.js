@@ -20,6 +20,7 @@ for(var i = 0; i < mail.lenght; i++){
 
 if (mailGiusta == true) {
   console.log ("Email Corretta");
-} else if(mailGiusta == false){
+} else (mailGiusta == false)
+{
   console.log ("Email Sbagliata");
   }
