@@ -8,7 +8,7 @@ var mail = ["mahou90@hotmail.it", "flaviamatta90@gmail.com", "lukijeddu@libero.i
 
 var mailGiusta = false;
 
-for(var i = 0; i < mail.lenght; i++){
+for(var i = 0; i < mail.length; i++){
   var email = mail[i];
 
   if(mailUtente == email){
@@ -20,7 +20,7 @@ for(var i = 0; i < mail.lenght; i++){
 
 if (mailGiusta == true) {
   console.log ("Email Corretta");
-} else (mailGiusta == false)
+} else if (mailGiusta == false)
 {
   console.log ("Email Sbagliata");
   }
